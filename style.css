@@ -5,6 +5,7 @@
  body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    color: #200c03;
  }
  li{
    list-style: none;
@@ -17,7 +18,7 @@
    padding-bottom: 32px;
    padding-top: 32px;
    height: 60px;
-   background-color: #724796;
+   background-color: #c56811;
  }
  .header-menu nav{
    display: flex;
@@ -38,7 +39,7 @@
  .principal{
    height: 100vh;
    display: flex;
-   background-color: #eaeaea;
+   background-color: #e9deb4;
  }
 .subcontainer-principal{
    display: flex;
@@ -57,12 +58,12 @@
 }
 .nome-completo{
    font-size: 36px;
-   color: #ff4dbc;
+   color: #502e08;
    font-weight: 700;
    height: 45px;
 }
 .profissao{
-   color: #c6b5d5;
+   color: #b97e4d;
    line-height: 32px;
 }
 .texto-sobre{
@@ -77,7 +78,7 @@ line-height: 32px;
 }
 .topico-principal{
    font-size: 36px;
-   color: #ff4dbc;
+   color: #5e220a;
 }
 .lista-item{
    padding: 32px;
@@ -85,40 +86,66 @@ line-height: 32px;
 .lista-titulo{
    margin-bottom: 5px;
    font-size: 22px;
-   color: #661e4b;
+   color: #994107;
    font-weight: 700;
 }
 .lista-local{
    font-size: 18px;
-   color: #2f80ed;
+   color: #c48612;
 }
 .lista-descricao{
    font-size: 18px;
    margin-top: 5px;
    line-height: 20px;
-   color: #828282;
+   color: hsl(28, 34%, 38%);
    font-weight: 300;
 }
 .lista-item ul li {
    margin-bottom: 32px;
 }
 .wrapper-portfolio{
-   background-color: #eaeeea;
+   background-color: #e9deb4;
    display: flex;
    flex-direction: column;
 }
-.rodape{
-   position: absolute;
-   width: 1263px;
-   height: 90px;
-   background-color: #be89cb;
-   color: #fff;
-   font-size: 18px;
+
+footer {
+   height: 198px;
+   background-color: #c56811;
+   width: 100%;
+   
    
   }
-  .estilo{
-   padding: 8px;
-   padding-top: 12px;
-   text-decoration: inherit;
-   margin-right: auto;
-  }
+
+footer ul {
+   display: inline-block;
+   margin-left: 30px;
+   margin-top: 40px;
+
+
+}
+footer li{
+   padding-bottom: 10px;
+   font-size: 14px;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 19px;
+   color: #fff;
+}
+
+footer a{
+
+   color: #fff;
+   text-decoration: none;
+   
+}
+footer i{
+   font-size: 30px;
+   margin-right: 14px;
+}
+
+footer ul li div {
+   display: flex;
+   align-items: center;
+
+}
