@@ -7,18 +7,25 @@
     margin: 0;
     color: #200c03;
  }
+ .image img{
+   max-width: 150px;
+   width: auto;
+   margin-top: -100px;
+   border-radius: 200px;
+   filter: sepia(100%) brightness(80%) saturate(112%) contrast(130%) hue-rotate(335deg);
+ 
+   
+ }
  li{
    list-style: none;
  }
  .header-menu{
    display: flex;
-   position: fixed;
    width: 100%;
-   padding: 8px;
    padding-bottom: 32px;
    padding-top: 32px;
    height: 60px;
-   background-color: #c56811;
+   background-color: #592d1d;
  }
  .header-menu nav{
    display: flex;
@@ -28,18 +35,19 @@
  .lista-menu{
    display: flex;
    justify-content: space-evenly;
-   width: 50%;
-   align-items: center;
+   align-items:flex-end;
+   margin-right: 10px;
  }
  .lista-menu li>a{
    color: #fff;
    font-size: 18px;
    text-decoration: inherit;
+   margin-left: 10px;
  }
  .principal{
    height: 100vh;
    display: flex;
-   background-color: #e9deb4;
+   background-color: #FBF7E4;
  }
 .subcontainer-principal{
    display: flex;
@@ -52,15 +60,13 @@
    margin-right: auto;
    margin-left: auto;
    max-width: 960px;
-   padding-right: 10px;
-   padding-left: 10px;
    width: 100%;
 }
 .nome-completo{
    font-size: 36px;
    color: #502e08;
    font-weight: 700;
-   height: 45px;
+   height: 45px; 
 }
 .profissao{
    color: #b97e4d;
@@ -111,7 +117,7 @@ line-height: 32px;
 
 footer {
    height: 198px;
-   background-color: #c56811;
+   background-color: #592d1d;
    width: 100%;
    
    
